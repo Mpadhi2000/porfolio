@@ -85,16 +85,6 @@ export function Projects() {
                   ))}
                 </div>
                 <div className="flex gap-2 mt-auto pt-2">
-                  {project.links.code && (
-                    <a
-                      href={project.links.code}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="btn btn-secondary flex-1 min-w-[100px]"
-                    >
-                      Code
-                    </a>
-                  )}
                   {project.links.live && (
                     <a
                       href={project.links.live}

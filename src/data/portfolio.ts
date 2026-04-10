@@ -41,7 +41,7 @@ export const hero = {
   eyebrow: "Full-Stack Developer",
   heading: "I build fast, scalable web products that users trust and teams can grow.",
   subheading:
-    "I am Mayank, a developer with 3+ years of production experience delivering React, Next.js, and API-driven applications, with deep expertise in WordPress engineering, performance optimization, and secure architecture.",
+    "I am Mayank, a developer with 5 years of production experience delivering React, Next.js, and API-driven applications, with deep expertise in WordPress engineering, performance optimization, and secure architecture.",
   stats: ["20+ Production Websites", "3+ Years Experience", "Performance + Security First"],
   primaryCta: { label: "View Projects", href: "#projects" },
   secondaryCta: { label: "Get Resume", href: "#contact" },

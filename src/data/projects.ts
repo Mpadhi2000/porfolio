@@ -74,7 +74,7 @@ export const projects = [
   {
     title: "ACAD STL",
     description: "Educational academy website built with WPBakery.",
-    image: "https://images.unsplash.com/photo-1523050853063-bd8012fbb230?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
     tags: ["WordPress", "WPBakery", "Education"],
     featured: false,
     category: "WPBakery",
@@ -122,9 +122,9 @@ export const projects = [
   {
     title: "Cultural Trust",
     description: "Custom WordPress site for cultural heritage management.",
-    image: "https://images.unsplash.com/photo-1524850041227-615c8274370f?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
     tags: ["WordPress", "Custom Theme", "JavaScript"],
-    featured: false,
+    featured: false,    
     category: "Custom",
     links: {
       code: "#",
@@ -134,7 +134,7 @@ export const projects = [
   {
     title: "Sudha Solutions",
     description: "Custom business solutions platform.",
-    image: "https://images.unsplash.com/photo-1454165205770-35200263640b?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
     tags: ["WordPress", "Custom PHP", "React"],
     featured: false,
     category: "Custom",
@@ -158,7 +158,7 @@ export const projects = [
   {
     title: "We Smile Dentistry",
     description: "Custom dentistry portal.",
-    image: "https://images.unsplash.com/photo-1629909608132-723387798622?w=800&q=80",
+    image: "https://images.unsplash.com/photo-1511632765486-a01980e01a18?w=800&q=80",
     tags: ["WordPress", "Custom Theme", "Performance"],
     featured: false,
     category: "Custom",

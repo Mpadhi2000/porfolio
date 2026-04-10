@@ -7,7 +7,6 @@ export const projects = [
     featured: true,
     category: "Full-Stack",
     links: {
-      code: "https://github.com/Mpadhi2000/Team_dashboard_frontend_project",
       live: "https://github.com/Mpadhi2000/Team_dashboard_frontend_project"
     }
   },
@@ -19,7 +18,6 @@ export const projects = [
     featured: true,
     category: "Full-Stack",
     links: {
-      code: "https://github.com/Mpadhi2000/Team_dashboard_plugin_wordpress",
       live: "https://github.com/Mpadhi2000/Team_dashboard_plugin_wordpress"
     }
   },
@@ -31,7 +29,6 @@ export const projects = [
     featured: false,
     category: "Divi",
     links: {
-      code: "#",
       live: "https://beechgrovechamber.org"
     }
   },
@@ -43,7 +40,6 @@ export const projects = [
     featured: false,
     category: "Divi",
     links: {
-      code: "#",
       live: "https://mariettaroswelldentist.com"
     }
   },
@@ -55,7 +51,6 @@ export const projects = [
     featured: false,
     category: "Divi",
     links: {
-      code: "#",
       live: "https://celltechmd.com"
     }
   },
@@ -67,7 +62,6 @@ export const projects = [
     featured: false,
     category: "WPBakery",
     links: {
-      code: "#",
       live: "https://dougdvorak.com"
     }
   },
@@ -79,7 +73,6 @@ export const projects = [
     featured: false,
     category: "WPBakery",
     links: {
-      code: "#",
       live: "https://acadstl.org"
     }
   },
@@ -91,7 +84,6 @@ export const projects = [
     featured: false,
     category: "WPBakery",
     links: {
-      code: "#",
       live: "https://salescoach.us"
     }
   },
@@ -103,7 +95,6 @@ export const projects = [
     featured: false,
     category: "Elementor",
     links: {
-      code: "#",
       live: "https://cfcatholicfathers.com"
     }
   },
@@ -115,7 +106,6 @@ export const projects = [
     featured: false,
     category: "Custom",
     links: {
-      code: "#",
       live: "https://anchorpackaging.com"
     }
   },
@@ -127,7 +117,6 @@ export const projects = [
     featured: false,    
     category: "Custom",
     links: {
-      code: "#",
       live: "https://culturaltrust.org"
     }
   },
@@ -139,7 +128,6 @@ export const projects = [
     featured: false,
     category: "Custom",
     links: {
-      code: "#",
       live: "https://sudhasolutions.com"
     }
   },
@@ -151,7 +139,6 @@ export const projects = [
     featured: false,
     category: "Custom",
     links: {
-      code: "#",
       live: "https://drcaminschi.com"
     }
   },
@@ -163,7 +150,6 @@ export const projects = [
     featured: false,
     category: "Custom",
     links: {
-      code: "#",
       live: "https://wesmiledentistry.ca"
     }
   },
@@ -175,7 +161,6 @@ export const projects = [
     featured: false,
     category: "Custom",
     links: {
-      code: "#",
       live: "https://torbramdental.com/"
     }
   },
@@ -187,7 +172,6 @@ export const projects = [
     featured: false,
     category: "Cornerstone",
     links: {
-      code: "#",
       live: "https://churchstdentalcare.com"
     }
   }

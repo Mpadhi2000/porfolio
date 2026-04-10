@@ -52,62 +52,63 @@ export function Projects() {
       </div>
 
       <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
-        {filteredProjects.map((project, index) => (
-          <Reveal
-            key={project.title}
-            delay={index * 70}
-            className="card-shell flex flex-col gap-4 rounded-2xl border border-white/10 bg-[rgba(20,20,20,0.7)] shadow-lg overflow-hidden h-full hover:shadow-2xl transition-shadow group"
-          >
-            <div className="relative h-48 overflow-hidden">
-              <img
-                src={project.image}
-                alt={project.title}
-                className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
-              />
-              {project.featured && (
-                <span className="absolute top-4 right-4 bg-primary text-primary-foreground px-2 py-0.5 rounded-md text-xs font-medium shadow">Featured</span>
-              )}
-            </div>
-            <div className="flex flex-col flex-1">
-              <h3 className="text-lg md:text-xl font-bold mb-2 group-hover:text-primary transition-colors">
-                {project.title}
-              </h3>
-              <p className="text-muted-foreground text-sm mb-3 line-clamp-2 flex-1">{project.description}</p>
-              <div className="flex flex-wrap gap-2 mb-3">
-                {project.tags.map((tag) => (
-                  <span
-                    key={tag}
-                    className="tag-bg text-secondary-foreground px-2 py-0.5 rounded-md text-xs font-medium"
-                  >
-                    {tag}
-                  </span>
-                ))}
-              </div>
-              <div className="flex gap-2 pt-2 mt-auto">
-                {project.links.code && (
-                  <a
-                    href={project.links.code}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-secondary flex-1"
-                  >
-                    Code
-                  </a>
-                )}
-                {project.links.live && (
-                  <a
-                    href={project.links.live}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="btn btn-primary flex-1"
-                  >
-                    Live Site
-                  </a>
+          {filteredProjects.map((project, index) => (
+            <Reveal
+              key={project.title}
+              delay={index * 70}
+              className="card-shell flex flex-col h-full group rounded-2xl shadow-lg hover:shadow-xl transition-shadow bg-card"
+            >
+              <div className="relative aspect-[16/9] w-full overflow-hidden rounded-xl mb-5">
+                <img
+                  src={project.image}
+                  alt={project.title}
+                  className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+                  loading="lazy"
+                />
+                {project.featured && (
+                  <span className="absolute top-3 right-3 bg-primary text-primary-foreground px-2 py-0.5 rounded-md text-xs font-medium shadow">Featured</span>
                 )}
               </div>
-            </div>
-          </Reveal>
-        ))}
+              <div className="flex flex-col flex-1">
+                <h3 className="text-xl font-heading font-bold mb-1 group-hover:text-primary transition-colors leading-tight">
+                  {project.title}
+                </h3>
+                <p className="text-secondary text-sm mb-4 line-clamp-2" style={{fontFamily: 'var(--font-body)'}}>{project.description}</p>
+                <div className="flex flex-wrap gap-2 mb-4">
+                  {project.tags.map((tag) => (
+                    <span
+                      key={tag}
+                      className="bg-secondary/20 text-secondary-foreground px-2 py-0.5 rounded-full text-xs font-medium border border-white/10"
+                    >
+                      {tag}
+                    </span>
+                  ))}
+                </div>
+                <div className="flex gap-2 mt-auto pt-2">
+                  {project.links.code && (
+                    <a
+                      href={project.links.code}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-secondary flex-1 min-w-[100px]"
+                    >
+                      Code
+                    </a>
+                  )}
+                  {project.links.live && (
+                    <a
+                      href={project.links.live}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="btn btn-primary flex-1 min-w-[100px]"
+                    >
+                      Live Site
+                    </a>
+                  )}
+                </div>
+              </div>
+            </Reveal>
+          ))}
       </div>
     </Section>
   );

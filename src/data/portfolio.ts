@@ -153,7 +153,7 @@ export const experiences: ExperienceItem[] = [
   {
     role: "Web Developer",
     company: "Codeworkss",
-    period: "July 2021 - Sep 2024",
+    period: "Jan 2021 - Sep 2024",
     location: "Dombivli, India",
     achievements: [
       "Developed custom REST API endpoints and secured them using authentication mechanisms.",

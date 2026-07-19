@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { JetBrains_Mono, Manrope, Sora } from "next/font/google";
 import "./globals.css";
 
@@ -25,6 +26,11 @@ export const metadata: Metadata = {
   },
   description:
     "Portfolio of Mayank Padhi, a frontend-focused full-stack developer building fast, secure, and scalable web applications with React, Next.js, and modern API architecture.",
+
+  other: {
+    "google-adsense-account": "ca-pub-4524555730856069",
+  },
+
   keywords: [
     "Mayank Padhi",
     "Frontend Developer",
@@ -39,7 +45,7 @@ export const metadata: Metadata = {
     title: "Mayank Padhi | Frontend-Focused Full-Stack Developer",
     description:
       "I build fast, scalable web products that users trust and teams can grow.",
-    url: "https://mayank-padhi.vercel.app/",
+    url: "https://mayankpadhi.in/",
     siteName: "Mayank Portfolio",
     type: "website",
     locale: "en_IN",
@@ -59,7 +65,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning className={`${sora.variable} ${manrope.variable} ${jetbrainsMono.variable} h-full antialiased`}>
-      <body suppressHydrationWarning className="min-h-full flex flex-col">{children}</body>
+      <body suppressHydrationWarning className="min-h-full flex flex-col">
+      
+        <Script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-4524555730856069"
+          crossOrigin="anonymous"
+          strategy="afterInteractive"
+        />
+      
+      {children}
+      
+      </body>
     </html>
   );
 }
